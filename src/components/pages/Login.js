@@ -23,7 +23,7 @@ export default function Login() {
           <Button className="button"><span>Log in</span> </Button>
 
           <div className="info">
-            Don't have an account? <Link to="/signup">Signup</Link> instead.
+            Don't have an account? <Link to="/signup"> <span className="text-lime-500">Signup</span> </Link> instead.
           </div>
         </From>
       </div>

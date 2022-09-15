@@ -23,7 +23,7 @@ body {
 }
 
 a {
-  @apply text-lime-500;
+  /* @apply text-lime-500; */
 }
 
 h4 {

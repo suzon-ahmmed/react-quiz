@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default function Account() {
   return (
-    <div className="account">
+    <div className="account font-semibold">
     <span className="material-icons-outlined" title="Account">
       account_circle
     </span>

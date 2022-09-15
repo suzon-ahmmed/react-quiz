@@ -31,7 +31,7 @@ export default function Signup() {
           </Button>
 
           <div className="info">
-            Already have an account? <Link to="/login">Login</Link> instead.
+            Already have an account? <Link to="/login"><span className="text-lime-500"> Login</span></Link> instead.
           </div>
         </From>
       </div>
