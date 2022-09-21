@@ -101,7 +101,7 @@ h4 {
 
 /* layout component */
 .main {
-  @apply min-h-[calc(100vh-70px)] w-full pt-20 pb-16;
+  @apply min-h-[calc(100vh-70px)] w-full  pt-20 pb-16;
   /* width: 100%;
   padding: 4rem 0; */
 }
@@ -140,16 +140,15 @@ h4 {
 
 /* button component */
 .button {
-  @apply bg-lime-500 text-gray-800 px-2 py-2 font-semibold text-[15px] uppercase flex justify-center items-center gap-2 rounded-lg border-0 cursor-pointer;
+  @apply bg-gradient-to-r from-lime-400 to-green-600 text-gray-800 px-2 py-2 font-semibold text-[15px] uppercase flex justify-center items-center gap-2 rounded-lg border-0 cursor-pointer;
 }
 
 .button:hover {
-  background: var(--fontPrimary);
-  color: #fff;
+  @apply bg-gradient-to-r from-green-600 to-lime-400;
 }
 
 .button:hover span {
-  color: #fff;
+  /* color: #fff; */
 }
 
 /* signup component */
@@ -203,7 +202,7 @@ h4 {
 
 /* videos component */
 .infinite-scroll-component {
-  @apply container w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-center gap-5 px-3 sm:px-0;
+  @apply container w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-center xl:gap-6 gap-4 px-3 sm:px-0;
   /* width: 100%;
   display: grid;
   margin: 1rem auto;
@@ -327,12 +326,12 @@ h4 {
 
 /* progress bar component */
 .progressBar {
-  width: calc(100vw - 100px);
+  width: calc(100%);
   height: 65px;
-  position: fixed;
+  /* position: fixed;
   left: 0;
   right: 0;
-  bottom: 20px;
+  bottom: 78px; */
   margin: 0 auto;
   background: #fff;
   border: 1px solid #e5e5e5;

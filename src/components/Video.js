@@ -7,7 +7,7 @@ export default function Video({ title, id, noq }) {
         src={`http://img.youtube.com/vi/${id}/maxresdefault.jpg`}
         alt={title}
       />
-      <p className="h-20">{title}</p>
+      <p className="h-24">{title}</p>
       <div className="qmeta">
         <p>{noq} Questions</p>
         <p>Total points : {noq * 5}</p>
