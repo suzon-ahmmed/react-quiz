@@ -8,18 +8,18 @@ export default function Account() {
     <div className="account font-semibold">
       {currentUser ? (
         <>
-          <span className="material-icons-outlined" title="Account">
+          <span className="material-icons-outlined text-transparent bg-clip-text bg-gradient-to-r from-lime-400 to-green-600" title="Account">
             account_circle
           </span>
 
-          <span>{currentUser.displayName}</span>
-          <span className="material-icons-outlined" title="Logout" onClick={signout}>
+          <span className="font-semibold">{currentUser.displayName}</span>
+          <span className="material-icons-outlined text-transparent bg-clip-text bg-gradient-to-r from-lime-400 to-green-600" title="Logout" onClick={signout}>
             logout
           </span>
         </>
       ) : (
         <>
-          <span className="material-icons-outlined" title="Account">
+          <span className="material-icons-outlined text-transparent bg-clip-text bg-gradient-to-r from-lime-400 to-green-600" title="Account">
             account_circle
           </span>
           <Link to="/signup">Signup</Link>

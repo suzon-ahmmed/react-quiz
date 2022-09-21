@@ -58,7 +58,7 @@ export default function LoginForm() {
       <div className="info">
         Don't have an account?
         <Link to="/signup">
-          <span className="text-lime-500">Signup</span>
+          <span className="text-lime-500"> Signup </span>
         </Link>
         instead.
       </div>

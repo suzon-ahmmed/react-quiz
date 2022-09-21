@@ -101,7 +101,7 @@ h4 {
 
 /* layout component */
 .main {
-  @apply w-full py-20;
+  @apply min-h-[calc(100vh-70px)] w-full pt-20 pb-16;
   /* width: 100%;
   padding: 4rem 0; */
 }
@@ -202,25 +202,26 @@ h4 {
 /* Grid list  p-1*/
 
 /* videos component */
-.videos {
-  width: 100%;
+.infinite-scroll-component {
+  @apply container w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-center gap-5 px-3 sm:px-0;
+  /* width: 100%;
   display: grid;
-  margin: 3rem auto;
+  margin: 1rem auto;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   justify-items: center;
   gap: 20px;
-  row-gap: 20px;
+  row-gap: 20px; */
 }
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   .videos {
     width: 90%;
   }
-}
+} */
 
 /* video component */
 .video {
-  max-width: 400px;
+  /* max-width: 400px; */
   height: fit-content;
   background-color: #fff;
   border: 1px solid #e5e5e5;
@@ -369,7 +370,6 @@ h4 {
     /* width: 40px; */
     /* height: 40px; */
   }
-
 
   .next span:first-child {
     display: none;

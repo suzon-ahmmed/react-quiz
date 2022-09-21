@@ -10,7 +10,7 @@ export default function Nav() {
         <li>
           <Link to="/" className="brand">
             <img src={logo} alt="Quiz App" />
-            <h3>Quiz App</h3>
+            <h3 className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-lime-400 to-green-600">Quiz App</h3>
           </Link>
         </li>
       </ul>
