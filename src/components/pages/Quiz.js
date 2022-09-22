@@ -1,8 +1,8 @@
-// import { getDatabase, set } from "firebase/database";
+import { getDatabase, ref, set } from "firebase/database";
 import _ from "lodash";
 import React, { useEffect, useReducer, useState } from "react";
-import {  useParams } from "react-router-dom";
-// import { useAuth } from "../../contexts/AuthContext";
+import { useNavigate, useParams } from "react-router-dom";
+import { useAuth } from "../../contexts/AuthContext";
 import useQuestions from "../../hooks/useQuestions";
 import Answers from "../Answers";
 import MiniPlayer from "../MiniPlayer";
@@ -10,10 +10,10 @@ import ProgressBar from "../ProgressBar";
 
 export default function Quiz() {
   const { id } = useParams();
+  const navigate = useNavigate();
 
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const { loading, error, questions } = useQuestions(id);
-  // const history =  Navigate();
 
   const initialState = null;
 
@@ -27,7 +27,7 @@ export default function Quiz() {
           });
         });
         return action.value;
-      case "aswers":
+      case "answer":
         const questions = _.cloneDeep(state);
         questions[action.questionId].options[action.optionIndex].checked =
           action.value;
@@ -38,9 +38,8 @@ export default function Quiz() {
   };
 
   const [qna, dispatch] = useReducer(reducer, initialState);
-  // console.log(qna);
 
-  // const {currentUser} = useAuth();
+  const { currentUser } = useAuth();
 
   useEffect(() => {
     dispatch({
@@ -51,7 +50,7 @@ export default function Quiz() {
 
   const handelAnswerChange = (e, index) => {
     dispatch({
-      type: "answers",
+      type: "answer",
       questionId: currentQuestion,
       optionIndex: index,
       value: e.target.checked,
@@ -68,25 +67,27 @@ export default function Quiz() {
       setCurrentQuestion((prevCurrent) => prevCurrent - 1);
     }
   }
+
+  async function submit() {
+    const { uid } = currentUser;
+
+    const db = getDatabase();
+    const resultRef = ref(db, `result/${uid}`);
+
+    await set(resultRef, {
+      [id]: qna,
+    });
+
+    navigate(`/result/${id}`,{
+      state: {
+        qna,
+      }
+    });
+  }
+
   const percentage =
     questions.length > 0 ? ((currentQuestion + 1) / questions.length) * 100 : 0;
 
-  // async function submit() {
-  //  const {uid} = currentUser;
-
-  //  const db = getDatabase();
-  //  const resultRef = (db, `result/${uid}`);
-
-  //  await set(resultRef, {
-  //   [uid] : qna,
-  //  });
-  //  history.push({
-  //   pathname : `result/${id}`,
-  //   state: {
-  //     qna,
-  //   }
-  //  })
-  // }
   // console.log('try to find error');
   return (
     <>
@@ -99,6 +100,7 @@ export default function Quiz() {
             Question can have multiple answers
           </h4>
           <Answers
+            input
             options={qna[currentQuestion].options}
             handelChange={handelAnswerChange}
           />
@@ -108,7 +110,7 @@ export default function Quiz() {
         next={NextQuestion}
         prev={PrevQuestion}
         progress={percentage}
-        // submit={submit}
+        submit={submit}       
       />
       <MiniPlayer />
     </>

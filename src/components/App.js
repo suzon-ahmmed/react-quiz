@@ -25,7 +25,7 @@ function App() {
 
             <Route element={<PrivateRoutes />}>
               <Route exact path="/quiz/:id" element={<Quiz />} />
-              <Route exact path="/result" element={<Result />} />
+              <Route exact path="/result/:id" element={<Result />} />
             </Route>
             
           </Routes>
