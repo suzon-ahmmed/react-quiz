@@ -46,5 +46,7 @@ export default function MiniPlayer({ id, videoTitle }) {
         <p>{videoTitle}</p>
       </div>
     </>
+
+    
   );
 }
