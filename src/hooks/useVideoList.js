@@ -48,8 +48,8 @@ export default function useVideoList(page) {
           setError(true);
         }
       }
-
-      fetchVideos();
+      setTimeout(() => fetchVideos(), 5000);
+      // fetchVideos();
     }
     return () => {
       clearEffect.current = true;

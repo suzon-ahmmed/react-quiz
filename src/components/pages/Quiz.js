@@ -97,9 +97,9 @@ export default function Quiz() {
       {loading && <div>loading...</div>}
       {error && <div>Error...</div>}
       {!loading && !error && qna && qna.length > 0 && (
-        <>
-          <h1 className="text-2xl sm:text-3xl">{qna[currentQuestion].title}</h1>
-          <h4 className="text-sm sm:text-base">
+        <div className="sm:mx-0 mx-2">
+          <h1 className="text-2xl sm:text-3xl dark:text-gray-200">{qna[currentQuestion].title}</h1>
+          <h4 className="text-sm sm:text-base dark:text-gray-400">
             Question can have multiple answers
           </h4>
           <Answers
@@ -107,7 +107,7 @@ export default function Quiz() {
             options={qna[currentQuestion].options}
             handelChange={handelAnswerChange}
           />
-        </>
+        </div>
       )}
       <ProgressBar
         next={NextQuestion}

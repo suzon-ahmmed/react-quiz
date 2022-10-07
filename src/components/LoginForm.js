@@ -34,6 +34,7 @@ export default function LoginForm() {
     <From className="login" onSubmit={handelLogin}>
       <TextInput
         type="email"
+        required
         placeholder="Enter Your Email"
         icon="alternate_email"
         value={email}
@@ -43,6 +44,7 @@ export default function LoginForm() {
       />
       <TextInput
         type="password"
+        required
         placeholder="Enter password"
         icon="lock"
         value={password}
@@ -55,10 +57,10 @@ export default function LoginForm() {
       </Button>
       {error && <p className="error">{error}</p>}
 
-      <div className="info">
+      <div className="info dark:text-gray-200">
         Don't have an account?
         <Link to="/signup">
-          <span className="text-lime-500"> Signup </span>
+          <span className="text-lime-500 font-medium"> Signup </span>
         </Link>
         instead.
       </div>

@@ -26,8 +26,7 @@ function App() {
             <Route element={<PrivateRoutes />}>
               <Route exact path="/quiz/:id" element={<Quiz />} />
               <Route exact path="/result/:id" element={<Result />} />
-            </Route>
-            
+            </Route>           
           </Routes>
         </Layout>
       </AuthProvider>

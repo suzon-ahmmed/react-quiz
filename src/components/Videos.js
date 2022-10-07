@@ -2,6 +2,8 @@ import { useState } from "react";
 import InfiniteScroll from "react-infinite-scroll-component";
 import { Link } from "react-router-dom";
 import useVideoList from "../hooks/useVideoList";
+import FirstSkleton from "./scleton/FirstSkleton";
+import SkletonCard from "./scleton/SkletonCard";
 import Video from "./Video";
 
 export default function Videos() {
@@ -14,7 +16,7 @@ export default function Videos() {
         <InfiniteScroll
           dataLength={videos.length}
           hasMore={hasMore}
-          // loader="Loading..."
+          loader={[1,2,3,4,5,6,7,8].map((n, id) =>(<SkletonCard key={id} /> ) )}
           next={() => setPage(page + 8)}
         >
           {videos.map((video) =>
@@ -43,7 +45,8 @@ export default function Videos() {
       )}
       {!loading && videos.length === 0 && <div>No data found!</div>}
       {error && <div>There was an error!</div>}
-      {loading && <div>Loading...</div>}
+      {loading && <FirstSkleton />}
+      {/* {loading && loading} */}
     </div>
   );
 }

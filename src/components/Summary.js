@@ -23,7 +23,7 @@ export default function Summary({ getScore, noq }) {
   return (
     <div className="summary">
       <div className="point">
-        <p className="score">
+        <p className="score dark:text-gray-200">
           Your score is <br />
           {getScore} out of {noq * 5}
         </p>

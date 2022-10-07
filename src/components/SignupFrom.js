@@ -90,13 +90,14 @@ export default function SignupFrom() {
       <Button disabled={loading} type='submit' className="button">
         <span>Submit Now</span>
       </Button>
+      
 
       {error && <p className="error">{error}</p>}
 
-      <div className="info">
+      <div className="info dark:text-gray-200">
         Already have an account?{" "}
         <Link to="/login">
-          <span className="text-lime-500"> Login</span>
+          <span className="text-lime-500 font-medium"> Login</span>
         </Link>{" "}
         instead.
       </div>

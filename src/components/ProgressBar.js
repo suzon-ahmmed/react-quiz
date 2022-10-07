@@ -37,7 +37,7 @@ export default function ProgressBar({ next, prev, submit, progress, state}) {
         onClick={progress === 100 ? submit : next}
        
       >
-        <span>{progress === 100 ? "Submit Quiz" : "Next Question"}</span>
+        <span className="hidden sm:block">{progress === 100 ? "Submit Quiz" : "Next Question"}</span>
         <span className="material-icons-outlined"> arrow_forward </span>
       </Button>
     </div>
