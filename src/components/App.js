@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { AuthProvider } from "../contexts/AuthContext";
 import Layout from "./Layout";
+import Error from "./pages/Error";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Quiz from "./pages/Quiz";
@@ -26,7 +27,9 @@ function App() {
             <Route element={<PrivateRoutes />}>
               <Route exact path="/quiz/:id" element={<Quiz />} />
               <Route exact path="/result/:id" element={<Result />} />
-            </Route>           
+            </Route>  
+
+            <Route exact path="*" element={<Error />} />       
           </Routes>
         </Layout>
       </AuthProvider>
