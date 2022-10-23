@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <footer className="p-4 min-h-[70px] bg-white shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800">
-      <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+    <footer className="p-4 min-h-[70px] bg-white shadow flex flex-col-reverse md:flex-row items-center justify-center md:items-center md:justify-between md:p-6 dark:bg-gray-800">
+      <span className="text-sm text-gray-500 mt-6 md:mt-0 sm:text-center dark:text-gray-400">
         © 2022
         <Link to="/" className="hover:underline ml-1">
           Quiz App™

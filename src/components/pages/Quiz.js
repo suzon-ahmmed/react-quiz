@@ -5,7 +5,6 @@ import { useLocation, useNavigate, useParams } from "react-router-dom";
 import { useAuth } from "../../contexts/AuthContext";
 import useQuestions from "../../hooks/useQuestions";
 import Answers from "../Answers";
-import MiniPlayer from "../MiniPlayer";
 import ProgressBar from "../ProgressBar";
 
 export default function Quiz() {
@@ -13,7 +12,6 @@ export default function Quiz() {
   const navigate = useNavigate();
 
   const location =  useLocation();
-  const videoTitle = location.state.videoTitle;
 
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const { loading, error, questions } = useQuestions(id);
@@ -115,7 +113,6 @@ export default function Quiz() {
         progress={percentage}
         submit={submit}       
       />
-      <MiniPlayer  id={id} videoTitle={videoTitle}/>
     </>
   );
 }
