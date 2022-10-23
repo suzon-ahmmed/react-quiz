@@ -1,8 +1,8 @@
-export default function Video({ title, id, noq }) {
+export default function Subject({ title, photoURL, noq }) {
   return (
     <div className="video">
       <img
-        src={`http://img.youtube.com/vi/${id}/maxresdefault.jpg`}
+        src={`${photoURL}`}
         alt={title}
       />{" "}
       {/* <img

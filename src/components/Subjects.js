@@ -22,22 +22,22 @@ export default function Videos() {
           {subjects.map((subject) =>
             subject.noq > 0 ? (
               <Link
-                to={`/quiz/${subject.youtubeID}`}
-                state={{ videoTitle: subject.title }}
-                key={subject.youtubeID}
+                to={`/quiz/${subject.subjectID}`}
+                state={{ SubjectTitle: subject.title }}
+                key={subject.subjectID}
               >
                 <Subject
                   title={subject.title}
-                  id={subject.youtubeID}
+                  photoURL={subject.photoURL}
                   noq={subject.noq}
                 />
               </Link>
             ) : (
               <Subject
                 title={subject.title}
-                id={subject.youtubeID}
+                photoURL={subject.photoURL}
                 noq={subject.noq}
-                key={subject.youtubeID}
+                key={subject.subjectID}
               />
             )
           )}

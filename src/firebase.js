@@ -29,3 +29,17 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 export default app;
+
+
+// general-quiz
+
+// // Your web app's Firebase configuration
+// const firebaseConfig = {
+//   apiKey: "AIzaSyCU8tjW6_8tx-Jq4Cnz959Ro8RGPP8MzeA",
+//   authDomain: "genetal-quiz.firebaseapp.com",
+//   databaseURL: "https://genetal-quiz-default-rtdb.asia-southeast1.firebasedatabase.app",
+//   projectId: "genetal-quiz",
+//   storageBucket: "genetal-quiz.appspot.com",
+//   messagingSenderId: "115891451907",
+//   appId: "1:115891451907:web:304d517f97954e63d03636"
+// };

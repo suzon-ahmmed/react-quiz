@@ -1,15 +1,15 @@
 {
-    "videos": {
+    "subjects": {
         "1": {
             "subjectID": "sub1",
-            "title": "#01 JavaScript Bangla Tutorial | Introduction to JavaScript",
-            "photoURL": "https://i.postimg.cc/jqZz3fpH/maxresdefault.jpg",
+            "title": "#01 সাধারণ জ্ঞান MCQ প্রশ্ন",
+            "photoURL": "https://i.postimg.cc/dQmnT0G2/gk.png",
             "noq": 4
         },
         "2": {
             "subjectID": "sub2",
-            "title": "#1 What is React and How it works - React Tutorial Bangla Series",
-            "photoURL": "https://i.postimg.cc/jqZz3fpH/maxresdefault.jpg",
+            "title": "#2 What is React and How it works - React Tutorial Bangla Series",
+            "photoURL": "https://i.postimg.cc/j2XXV8Rg/gs.png",
             "noq": 4
         },
         "3": {
@@ -40,7 +40,7 @@
             "subjectID": "sub7",
             "title": "#2 - Node.js কি & কিভাবে কাজ করে? - Node.js Tutorial Bangla | Bangla Node js Tutorial",
             "photoURL": "https://i.postimg.cc/jqZz3fpH/maxresdefault.jpg",
-            "noq": 0
+            "noq": 4
         },
         "8": {
             "subjectID": "sub8",
@@ -59,148 +59,88 @@
             "title": "#3 React ESLint, Formatting with Prettier, Editor & Project Setup - React Tutorial Bangla Series",
             "photoURL": "https://i.postimg.cc/jqZz3fpH/maxresdefault.jpg",
             "noq": 0
+        },
+        "11": {
+            "subjectID": "sub11",
+            "title": "#3 React ESLint, Formatting with Prettier, Editor & Project Setup - React Tutorial Bangla Series",
+            "photoURL": "https://i.postimg.cc/jqZz3fpH/maxresdefault.jpg",
+            "noq": 0
+        },
+        "12": {
+            "subjectID": "sub12",
+            "title": "#3 React ESLint, Formatting with Prettier, Editor & Project Setup - React Tutorial Bangla Series",
+            "photoURL": "https://i.postimg.cc/jqZz3fpH/maxresdefault.jpg",
+            "noq": 0
         }
     },
     "quiz": {
         "sub1": {
             "questions": [
                 {
-                    "title": "How to declare JavaScript variables?",
+                    "title": "01. পৃথিবীতে কত লোক বাংলা ভাষায় কথা বলে ?",
                     "options": [
                         {
-                            "title": "with var"
+                            "title": "২৫ কোটি"
                         },
                         {
-                            "title": "with let"
+                            "title": "৩০ কোটি"
                         },
                         {
-                            "title": "with const"
+                            "title": "৩৫ কোটি"
                         },
                         {
-                            "title": "with variable"
-                        },
-                        {
-                            "title": "with declare"
-                        },
-                        {
-                            "title": "with new"
-                        },
-                        {
-                            "title": "with number"
-                        },
-                        {
-                            "title": "with string"
-                        },
-                        {
-                            "title": "with boolean"
-                        },
-                        {
-                            "title": "with nothing"
+                            "title": "৪০ কোটি"
                         }
                     ]
                 },
                 {
-                    "title": "When was JavaScript invented?",
+                    "title": "02. নােবল পুরস্কার যার নামে শুরু হয়েছিল সেই আলফ্রেড নােবেল কী আবিষ্কার করেছিলেন ?",
                     "options": [
                         {
-                            "title": "September 1998"
+                            "title": "টেলিফোন"
                         },
                         {
-                            "title": "October 1999"
+                            "title": "নিরাপত্তারােধক বাতি"
                         },
                         {
-                            "title": "September 1995"
+                            "title": "ডিনামাইট"
                         },
                         {
-                            "title": "September 1993"
-                        },
-                        {
-                            "title": "August 1990"
-                        },
-                        {
-                            "title": "January 1995"
-                        },
-                        {
-                            "title": "with number"
-                        },
-                        {
-                            "title": "December 1995"
-                        },
-                        {
-                            "title": "March 1996"
-                        },
-                        {
-                            "title": "January 1970"
+                            "title": "উড়ােজাহাজ"
                         }
                     ]
                 },
                 {
-                    "title": "Who or which company created JavaScript?",
+                    "title": "03. ভূমিকম্পের দেশ বলা হয় কোন দেশকে ? ",
                     "options": [
                         {
-                            "title": "Jordan Walke"
+                            "title": "ইন্দোনেশিয়া "
                         },
                         {
-                            "title": "Netscape"
+                            "title": "জাপান "
                         },
                         {
-                            "title": "Jack Ma"
+                            "title": "ভুটান "
                         },
                         {
-                            "title": "Nayok Razzaq"
-                        },
-                        {
-                            "title": "Takla Rubel"
-                        },
-                        {
-                            "title": "Tarzan"
-                        },
-                        {
-                            "title": "Brendan Eich"
-                        },
-                        {
-                            "title": "Mark Zuckerburg"
-                        },
-                        {
-                            "title": "Bill Gates"
-                        },
-                        {
-                            "title": "Steve Jobs"
+                            "title": "থাইল্যান্ড "
                         }
                     ]
                 },
                 {
-                    "title": "What is the latest version of ECMAScript",
+                    "title": "04. ইরানের পার্লামেন্টের নাম কী ? ",
                     "options": [
                         {
-                            "title": "ES2020"
+                            "title": "নেসেট "
                         },
                         {
-                            "title": "ES2021"
+                            "title": "ডায়েট "
                         },
                         {
-                            "title": "ES6"
+                            "title": "মজিলিস "
                         },
                         {
-                            "title": "ES7"
-                        },
-                        {
-                            "title": "ES8"
-                        },
-                        {
-                            "title": "ES2022"
-                        },
-                        {
-                            "title": "ES21"
-                        },
-                        {
-                            "title": "ES3"
-                        },
-                        {
-                            "title": "ES9"
-                        },
-                        {
-                            "title": "ES2020"
+                            "title": "বােরসেট "
                         }
                     ]
                 }
@@ -209,142 +149,70 @@
         "sub2": {
             "questions": [
                 {
-                    "title": "How to declare JavaScript variables?",
+                    "title": "01. পৃথিবীতে কত লোক বাংলা ভাষায় কথা বলে ?",
                     "options": [
                         {
-                            "title": "with var"
+                            "title": "২৫ কোটি"
                         },
                         {
-                            "title": "with let"
+                            "title": "৩০ কোটি"
                         },
                         {
-                            "title": "with const"
+                            "title": "৩৫ কোটি"
                         },
                         {
-                            "title": "with variable"
-                        },
-                        {
-                            "title": "with declare"
-                        },
-                        {
-                            "title": "with new"
-                        },
-                        {
-                            "title": "with number"
-                        },
-                        {
-                            "title": "with string"
-                        },
-                        {
-                            "title": "with boolean"
-                        },
-                        {
-                            "title": "with nothing"
+                            "title": "৪০ কোটি"
                         }
                     ]
                 },
                 {
-                    "title": "When was JavaScript invented?",
+                    "title": "02. নােবল পুরস্কার যার নামে শুরু হয়েছিল সেই আলফ্রেড নােবেল কী আবিষ্কার করেছিলেন ?",
                     "options": [
                         {
-                            "title": "September 1998"
+                            "title": "টেলিফোন"
                         },
                         {
-                            "title": "October 1999"
+                            "title": "নিরাপত্তারােধক বাতি"
                         },
                         {
-                            "title": "September 1995"
+                            "title": "ডিনামাইট"
                         },
                         {
-                            "title": "September 1993"
-                        },
-                        {
-                            "title": "August 1990"
-                        },
-                        {
-                            "title": "January 1995"
-                        },
-                        {
-                            "title": "with number"
-                        },
-                        {
-                            "title": "December 1995"
-                        },
-                        {
-                            "title": "March 1996"
-                        },
-                        {
-                            "title": "January 1970"
+                            "title": "উড়ােজাহাজ"
                         }
                     ]
                 },
                 {
-                    "title": "Who or which company created JavaScript?",
+                    "title": "03. ভূমিকম্পের দেশ বলা হয় কোন দেশকে ? ",
                     "options": [
                         {
-                            "title": "Jordan Walke"
+                            "title": "ইন্দোনেশিয়া "
                         },
                         {
-                            "title": "Netscape"
+                            "title": "জাপান "
                         },
                         {
-                            "title": "Jack Ma"
+                            "title": "ভুটান "
                         },
                         {
-                            "title": "Nayok Razzaq"
-                        },
-                        {
-                            "title": "Takla Rubel"
-                        },
-                        {
-                            "title": "Tarzan"
-                        },
-                        {
-                            "title": "Brendan Eich"
-                        },
-                        {
-                            "title": "Mark Zuckerburg"
-                        },
-                        {
-                            "title": "Bill Gates"
-                        },
-                        {
-                            "title": "Steve Jobs"
+                            "title": "থাইল্যান্ড "
                         }
                     ]
                 },
                 {
-                    "title": "What is the latest version of ECMAScript",
+                    "title": "04. ইরানের পার্লামেন্টের নাম কী ? ",
                     "options": [
                         {
-                            "title": "ES2020"
+                            "title": "নেসেট "
                         },
                         {
-                            "title": "ES2021"
+                            "title": "ডায়েট "
                         },
                         {
-                            "title": "ES6"
+                            "title": "মজিলিস "
                         },
                         {
-                            "title": "ES7"
-                        },
-                        {
-                            "title": "ES8"
-                        },
-                        {
-                            "title": "ES2022"
-                        },
-                        {
-                            "title": "ES21"
-                        },
-                        {
-                            "title": "ES3"
-                        },
-                        {
-                            "title": "ES9"
-                        },
-                        {
-                            "title": "ES2020"
+                            "title": "বােরসেট "
                         }
                     ]
                 }
@@ -353,142 +221,70 @@
         "sub3": {
             "questions": [
                 {
-                    "title": "How to declare JavaScript variables?",
+                    "title": "01. পৃথিবীতে কত লোক বাংলা ভাষায় কথা বলে ?",
                     "options": [
                         {
-                            "title": "with var"
+                            "title": "২৫ কোটি"
                         },
                         {
-                            "title": "with let"
+                            "title": "৩০ কোটি"
                         },
                         {
-                            "title": "with const"
+                            "title": "৩৫ কোটি"
                         },
                         {
-                            "title": "with variable"
-                        },
-                        {
-                            "title": "with declare"
-                        },
-                        {
-                            "title": "with new"
-                        },
-                        {
-                            "title": "with number"
-                        },
-                        {
-                            "title": "with string"
-                        },
-                        {
-                            "title": "with boolean"
-                        },
-                        {
-                            "title": "with nothing"
+                            "title": "৪০ কোটি"
                         }
                     ]
                 },
                 {
-                    "title": "When was JavaScript invented?",
+                    "title": "02. নােবল পুরস্কার যার নামে শুরু হয়েছিল সেই আলফ্রেড নােবেল কী আবিষ্কার করেছিলেন ?",
                     "options": [
                         {
-                            "title": "September 1998"
+                            "title": "টেলিফোন"
                         },
                         {
-                            "title": "October 1999"
+                            "title": "নিরাপত্তারােধক বাতি"
                         },
                         {
-                            "title": "September 1995"
+                            "title": "ডিনামাইট"
                         },
                         {
-                            "title": "September 1993"
-                        },
-                        {
-                            "title": "August 1990"
-                        },
-                        {
-                            "title": "January 1995"
-                        },
-                        {
-                            "title": "with number"
-                        },
-                        {
-                            "title": "December 1995"
-                        },
-                        {
-                            "title": "March 1996"
-                        },
-                        {
-                            "title": "January 1970"
+                            "title": "উড়ােজাহাজ"
                         }
                     ]
                 },
                 {
-                    "title": "Who or which company created JavaScript?",
+                    "title": "03. ভূমিকম্পের দেশ বলা হয় কোন দেশকে ? ",
                     "options": [
                         {
-                            "title": "Jordan Walke"
+                            "title": "ইন্দোনেশিয়া "
                         },
                         {
-                            "title": "Netscape"
+                            "title": "জাপান "
                         },
                         {
-                            "title": "Jack Ma"
+                            "title": "ভুটান "
                         },
                         {
-                            "title": "Nayok Razzaq"
-                        },
-                        {
-                            "title": "Takla Rubel"
-                        },
-                        {
-                            "title": "Tarzan"
-                        },
-                        {
-                            "title": "Brendan Eich"
-                        },
-                        {
-                            "title": "Mark Zuckerburg"
-                        },
-                        {
-                            "title": "Bill Gates"
-                        },
-                        {
-                            "title": "Steve Jobs"
+                            "title": "থাইল্যান্ড "
                         }
                     ]
                 },
                 {
-                    "title": "What is the latest version of ECMAScript",
+                    "title": "04. ইরানের পার্লামেন্টের নাম কী ? ",
                     "options": [
                         {
-                            "title": "ES2020"
+                            "title": "নেসেট "
                         },
                         {
-                            "title": "ES2021"
+                            "title": "ডায়েট "
                         },
                         {
-                            "title": "ES6"
+                            "title": "মজিলিস "
                         },
                         {
-                            "title": "ES7"
-                        },
-                        {
-                            "title": "ES8"
-                        },
-                        {
-                            "title": "ES2022"
-                        },
-                        {
-                            "title": "ES21"
-                        },
-                        {
-                            "title": "ES3"
-                        },
-                        {
-                            "title": "ES9"
-                        },
-                        {
-                            "title": "ES2020"
+                            "title": "বােরসেট "
                         }
                     ]
                 }
@@ -497,142 +293,70 @@
         "sub4": {
             "questions": [
                 {
-                    "title": "How to declare JavaScript variables?",
+                    "title": "01. পৃথিবীতে কত লোক বাংলা ভাষায় কথা বলে ?",
                     "options": [
                         {
-                            "title": "with var"
+                            "title": "২৫ কোটি"
                         },
                         {
-                            "title": "with let"
+                            "title": "৩০ কোটি"
                         },
                         {
-                            "title": "with const"
+                            "title": "৩৫ কোটি"
                         },
                         {
-                            "title": "with variable"
-                        },
-                        {
-                            "title": "with declare"
-                        },
-                        {
-                            "title": "with new"
-                        },
-                        {
-                            "title": "with number"
-                        },
-                        {
-                            "title": "with string"
-                        },
-                        {
-                            "title": "with boolean"
-                        },
-                        {
-                            "title": "with nothing"
+                            "title": "৪০ কোটি"
                         }
                     ]
                 },
                 {
-                    "title": "When was JavaScript invented?",
+                    "title": "02. নােবল পুরস্কার যার নামে শুরু হয়েছিল সেই আলফ্রেড নােবেল কী আবিষ্কার করেছিলেন ?",
                     "options": [
                         {
-                            "title": "September 1998"
+                            "title": "টেলিফোন"
                         },
                         {
-                            "title": "October 1999"
+                            "title": "নিরাপত্তারােধক বাতি"
                         },
                         {
-                            "title": "September 1995"
+                            "title": "ডিনামাইট"
                         },
                         {
-                            "title": "September 1993"
-                        },
-                        {
-                            "title": "August 1990"
-                        },
-                        {
-                            "title": "January 1995"
-                        },
-                        {
-                            "title": "with number"
-                        },
-                        {
-                            "title": "December 1995"
-                        },
-                        {
-                            "title": "March 1996"
-                        },
-                        {
-                            "title": "January 1970"
+                            "title": "উড়ােজাহাজ"
                         }
                     ]
                 },
                 {
-                    "title": "Who or which company created JavaScript?",
+                    "title": "03. ভূমিকম্পের দেশ বলা হয় কোন দেশকে ? ",
                     "options": [
                         {
-                            "title": "Jordan Walke"
+                            "title": "ইন্দোনেশিয়া "
                         },
                         {
-                            "title": "Netscape"
+                            "title": "জাপান "
                         },
                         {
-                            "title": "Jack Ma"
+                            "title": "ভুটান "
                         },
                         {
-                            "title": "Nayok Razzaq"
-                        },
-                        {
-                            "title": "Takla Rubel"
-                        },
-                        {
-                            "title": "Tarzan"
-                        },
-                        {
-                            "title": "Brendan Eich"
-                        },
-                        {
-                            "title": "Mark Zuckerburg"
-                        },
-                        {
-                            "title": "Bill Gates"
-                        },
-                        {
-                            "title": "Steve Jobs"
+                            "title": "থাইল্যান্ড "
                         }
                     ]
                 },
                 {
-                    "title": "What is the latest version of ECMAScript",
+                    "title": "04. ইরানের পার্লামেন্টের নাম কী ? ",
                     "options": [
                         {
-                            "title": "ES2020"
+                            "title": "নেসেট "
                         },
                         {
-                            "title": "ES2021"
+                            "title": "ডায়েট "
                         },
                         {
-                            "title": "ES6"
+                            "title": "মজিলিস "
                         },
                         {
-                            "title": "ES7"
-                        },
-                        {
-                            "title": "ES8"
-                        },
-                        {
-                            "title": "ES2022"
-                        },
-                        {
-                            "title": "ES21"
-                        },
-                        {
-                            "title": "ES3"
-                        },
-                        {
-                            "title": "ES9"
-                        },
-                        {
-                            "title": "ES2020"
+                            "title": "বােরসেট "
                         }
                     ]
                 }
@@ -641,142 +365,70 @@
         "sub5": {
             "questions": [
                 {
-                    "title": "How to declare JavaScript variables?",
+                    "title": "01. পৃথিবীতে কত লোক বাংলা ভাষায় কথা বলে ?",
                     "options": [
                         {
-                            "title": "with var"
+                            "title": "২৫ কোটি"
                         },
                         {
-                            "title": "with let"
+                            "title": "৩০ কোটি"
                         },
                         {
-                            "title": "with const"
+                            "title": "৩৫ কোটি"
                         },
                         {
-                            "title": "with variable"
-                        },
-                        {
-                            "title": "with declare"
-                        },
-                        {
-                            "title": "with new"
-                        },
-                        {
-                            "title": "with number"
-                        },
-                        {
-                            "title": "with string"
-                        },
-                        {
-                            "title": "with boolean"
-                        },
-                        {
-                            "title": "with nothing"
+                            "title": "৪০ কোটি"
                         }
                     ]
                 },
                 {
-                    "title": "When was JavaScript invented?",
+                    "title": "02. নােবল পুরস্কার যার নামে শুরু হয়েছিল সেই আলফ্রেড নােবেল কী আবিষ্কার করেছিলেন ?",
                     "options": [
                         {
-                            "title": "September 1998"
+                            "title": "টেলিফোন"
                         },
                         {
-                            "title": "October 1999"
+                            "title": "নিরাপত্তারােধক বাতি"
                         },
                         {
-                            "title": "September 1995"
+                            "title": "ডিনামাইট"
                         },
                         {
-                            "title": "September 1993"
-                        },
-                        {
-                            "title": "August 1990"
-                        },
-                        {
-                            "title": "January 1995"
-                        },
-                        {
-                            "title": "with number"
-                        },
-                        {
-                            "title": "December 1995"
-                        },
-                        {
-                            "title": "March 1996"
-                        },
-                        {
-                            "title": "January 1970"
+                            "title": "উড়ােজাহাজ"
                         }
                     ]
                 },
                 {
-                    "title": "Who or which company created JavaScript?",
+                    "title": "03. ভূমিকম্পের দেশ বলা হয় কোন দেশকে ? ",
                     "options": [
                         {
-                            "title": "Jordan Walke"
+                            "title": "ইন্দোনেশিয়া "
                         },
                         {
-                            "title": "Netscape"
+                            "title": "জাপান "
                         },
                         {
-                            "title": "Jack Ma"
+                            "title": "ভুটান "
                         },
                         {
-                            "title": "Nayok Razzaq"
-                        },
-                        {
-                            "title": "Takla Rubel"
-                        },
-                        {
-                            "title": "Tarzan"
-                        },
-                        {
-                            "title": "Brendan Eich"
-                        },
-                        {
-                            "title": "Mark Zuckerburg"
-                        },
-                        {
-                            "title": "Bill Gates"
-                        },
-                        {
-                            "title": "Steve Jobs"
+                            "title": "থাইল্যান্ড "
                         }
                     ]
                 },
                 {
-                    "title": "What is the latest version of ECMAScript",
+                    "title": "04. ইরানের পার্লামেন্টের নাম কী ? ",
                     "options": [
                         {
-                            "title": "ES2020"
+                            "title": "নেসেট "
                         },
                         {
-                            "title": "ES2021"
+                            "title": "ডায়েট "
                         },
                         {
-                            "title": "ES6"
+                            "title": "মজিলিস "
                         },
                         {
-                            "title": "ES7"
-                        },
-                        {
-                            "title": "ES8"
-                        },
-                        {
-                            "title": "ES2022"
-                        },
-                        {
-                            "title": "ES21"
-                        },
-                        {
-                            "title": "ES3"
-                        },
-                        {
-                            "title": "ES9"
-                        },
-                        {
-                            "title": "ES2020"
+                            "title": "বােরসেট "
                         }
                     ]
                 }
@@ -785,142 +437,70 @@
         "sub6": {
             "questions": [
                 {
-                    "title": "How to declare JavaScript variables?",
+                    "title": "01. পৃথিবীতে কত লোক বাংলা ভাষায় কথা বলে ?",
                     "options": [
                         {
-                            "title": "with var"
+                            "title": "২৫ কোটি"
                         },
                         {
-                            "title": "with let"
+                            "title": "৩০ কোটি"
                         },
                         {
-                            "title": "with const"
+                            "title": "৩৫ কোটি"
                         },
                         {
-                            "title": "with variable"
-                        },
-                        {
-                            "title": "with declare"
-                        },
-                        {
-                            "title": "with new"
-                        },
-                        {
-                            "title": "with number"
-                        },
-                        {
-                            "title": "with string"
-                        },
-                        {
-                            "title": "with boolean"
-                        },
-                        {
-                            "title": "with nothing"
+                            "title": "৪০ কোটি"
                         }
                     ]
                 },
                 {
-                    "title": "When was JavaScript invented?",
+                    "title": "02. নােবল পুরস্কার যার নামে শুরু হয়েছিল সেই আলফ্রেড নােবেল কী আবিষ্কার করেছিলেন ?",
                     "options": [
                         {
-                            "title": "September 1998"
+                            "title": "টেলিফোন"
                         },
                         {
-                            "title": "October 1999"
+                            "title": "নিরাপত্তারােধক বাতি"
                         },
                         {
-                            "title": "September 1995"
+                            "title": "ডিনামাইট"
                         },
                         {
-                            "title": "September 1993"
-                        },
-                        {
-                            "title": "August 1990"
-                        },
-                        {
-                            "title": "January 1995"
-                        },
-                        {
-                            "title": "with number"
-                        },
-                        {
-                            "title": "December 1995"
-                        },
-                        {
-                            "title": "March 1996"
-                        },
-                        {
-                            "title": "January 1970"
+                            "title": "উড়ােজাহাজ"
                         }
                     ]
                 },
                 {
-                    "title": "Who or which company created JavaScript?",
+                    "title": "03. ভূমিকম্পের দেশ বলা হয় কোন দেশকে ? ",
                     "options": [
                         {
-                            "title": "Jordan Walke"
+                            "title": "ইন্দোনেশিয়া "
                         },
                         {
-                            "title": "Netscape"
+                            "title": "জাপান "
                         },
                         {
-                            "title": "Jack Ma"
+                            "title": "ভুটান "
                         },
                         {
-                            "title": "Nayok Razzaq"
-                        },
-                        {
-                            "title": "Takla Rubel"
-                        },
-                        {
-                            "title": "Tarzan"
-                        },
-                        {
-                            "title": "Brendan Eich"
-                        },
-                        {
-                            "title": "Mark Zuckerburg"
-                        },
-                        {
-                            "title": "Bill Gates"
-                        },
-                        {
-                            "title": "Steve Jobs"
+                            "title": "থাইল্যান্ড "
                         }
                     ]
                 },
                 {
-                    "title": "What is the latest version of ECMAScript",
+                    "title": "04. ইরানের পার্লামেন্টের নাম কী ? ",
                     "options": [
                         {
-                            "title": "ES2020"
+                            "title": "নেসেট "
                         },
                         {
-                            "title": "ES2021"
+                            "title": "ডায়েট "
                         },
                         {
-                            "title": "ES6"
+                            "title": "মজিলিস "
                         },
                         {
-                            "title": "ES7"
-                        },
-                        {
-                            "title": "ES8"
-                        },
-                        {
-                            "title": "ES2022"
-                        },
-                        {
-                            "title": "ES21"
-                        },
-                        {
-                            "title": "ES3"
-                        },
-                        {
-                            "title": "ES9"
-                        },
-                        {
-                            "title": "ES2020"
+                            "title": "বােরসেট "
                         }
                     ]
                 }
@@ -929,142 +509,70 @@
         "sub7": {
             "questions": [
                 {
-                    "title": "How to declare JavaScript variables?",
+                    "title": "01. পৃথিবীতে কত লোক বাংলা ভাষায় কথা বলে ?",
                     "options": [
                         {
-                            "title": "with var"
+                            "title": "২৫ কোটি"
                         },
                         {
-                            "title": "with let"
+                            "title": "৩০ কোটি"
                         },
                         {
-                            "title": "with const"
+                            "title": "৩৫ কোটি"
                         },
                         {
-                            "title": "with variable"
-                        },
-                        {
-                            "title": "with declare"
-                        },
-                        {
-                            "title": "with new"
-                        },
-                        {
-                            "title": "with number"
-                        },
-                        {
-                            "title": "with string"
-                        },
-                        {
-                            "title": "with boolean"
-                        },
-                        {
-                            "title": "with nothing"
+                            "title": "৪০ কোটি"
                         }
                     ]
                 },
                 {
-                    "title": "When was JavaScript invented?",
+                    "title": "02. নােবল পুরস্কার যার নামে শুরু হয়েছিল সেই আলফ্রেড নােবেল কী আবিষ্কার করেছিলেন ?",
                     "options": [
                         {
-                            "title": "September 1998"
+                            "title": "টেলিফোন"
                         },
                         {
-                            "title": "October 1999"
+                            "title": "নিরাপত্তারােধক বাতি"
                         },
                         {
-                            "title": "September 1995"
+                            "title": "ডিনামাইট"
                         },
                         {
-                            "title": "September 1993"
-                        },
-                        {
-                            "title": "August 1990"
-                        },
-                        {
-                            "title": "January 1995"
-                        },
-                        {
-                            "title": "with number"
-                        },
-                        {
-                            "title": "December 1995"
-                        },
-                        {
-                            "title": "March 1996"
-                        },
-                        {
-                            "title": "January 1970"
+                            "title": "উড়ােজাহাজ"
                         }
                     ]
                 },
                 {
-                    "title": "Who or which company created JavaScript?",
+                    "title": "03. ভূমিকম্পের দেশ বলা হয় কোন দেশকে ? ",
                     "options": [
                         {
-                            "title": "Jordan Walke"
+                            "title": "ইন্দোনেশিয়া "
                         },
                         {
-                            "title": "Netscape"
+                            "title": "জাপান "
                         },
                         {
-                            "title": "Jack Ma"
+                            "title": "ভুটান "
                         },
                         {
-                            "title": "Nayok Razzaq"
-                        },
-                        {
-                            "title": "Takla Rubel"
-                        },
-                        {
-                            "title": "Tarzan"
-                        },
-                        {
-                            "title": "Brendan Eich"
-                        },
-                        {
-                            "title": "Mark Zuckerburg"
-                        },
-                        {
-                            "title": "Bill Gates"
-                        },
-                        {
-                            "title": "Steve Jobs"
+                            "title": "থাইল্যান্ড "
                         }
                     ]
                 },
                 {
-                    "title": "What is the latest version of ECMAScript",
+                    "title": "04. ইরানের পার্লামেন্টের নাম কী ? ",
                     "options": [
                         {
-                            "title": "ES2020"
+                            "title": "নেসেট "
                         },
                         {
-                            "title": "ES2021"
+                            "title": "ডায়েট "
                         },
                         {
-                            "title": "ES6"
+                            "title": "মজিলিস "
                         },
                         {
-                            "title": "ES7"
-                        },
-                        {
-                            "title": "ES8"
-                        },
-                        {
-                            "title": "ES2022"
-                        },
-                        {
-                            "title": "ES21"
-                        },
-                        {
-                            "title": "ES3"
-                        },
-                        {
-                            "title": "ES9"
-                        },
-                        {
-                            "title": "ES2020"
+                            "title": "বােরসেট "
                         }
                     ]
                 }
@@ -1075,149 +583,74 @@
         "sub1": {
             "questions": [
                 {
-                    "title": "How to declare JavaScript variables?",
+                    "title": "01. পৃথিবীতে কত লোক বাংলা ভাষায় কথা বলে ?",
                     "options": [
                         {
-                            "title": "with var",
+                            "title": "২৫ কোটি",
                             "correct": true
                         },
                         {
-                            "title": "with let",
-                            "correct": true
+                            "title": "৩০ কোটি"
                         },
                         {
-                            "title": "with const",
-                            "correct": true
+                            "title": "৩৫ কোটি"
                         },
                         {
-                            "title": "with variable"
-                        },
-                        {
-                            "title": "with declare"
-                        },
-                        {
-                            "title": "with new"
-                        },
-                        {
-                            "title": "with number"
-                        },
-                        {
-                            "title": "with string"
-                        },
-                        {
-                            "title": "with boolean"
-                        },
-                        {
-                            "title": "with nothing"
+                            "title": "৪০ কোটি"
                         }
                     ]
                 },
                 {
-                    "title": "When was JavaScript invented?",
+                    "title": "02. নােবল পুরস্কার যার নামে শুরু হয়েছিল সেই আলফ্রেড নােবেল কী আবিষ্কার করেছিলেন ?",
                     "options": [
                         {
-                            "title": "September 1998"
+                            "title": "টেলিফোন"
                         },
                         {
-                            "title": "October 1999"
+                            "title": "নিরাপত্তারােধক বাতি"
                         },
                         {
-                            "title": "September 1995",
+                            "title": "ডিনামাইট",
                             "correct": true
                         },
                         {
-                            "title": "September 1993"
-                        },
-                        {
-                            "title": "August 1990"
-                        },
-                        {
-                            "title": "January 1995"
-                        },
-                        {
-                            "title": "with number"
-                        },
-                        {
-                            "title": "December 1995"
-                        },
-                        {
-                            "title": "March 1996"
-                        },
-                        {
-                            "title": "January 1970"
+                            "title": "উড়ােজাহাজ"
                         }
                     ]
                 },
                 {
-                    "title": "Who or which company created JavaScript?",
+                    "title": "03. ভূমিকম্পের দেশ বলা হয় কোন দেশকে ? ",
                     "options": [
                         {
-                            "title": "Jordan Walke"
+                            "title": "ইন্দোনেশিয়া "
                         },
                         {
-                            "title": "Netscape",
+                            "title": "জাপান ",
                             "correct": true
                         },
                         {
-                            "title": "Jack Ma"
+                            "title": "ভুটান "
                         },
                         {
-                            "title": "Nayok Razzaq"
-                        },
-                        {
-                            "title": "Takla Rubel"
-                        },
-                        {
-                            "title": "Tarzan"
-                        },
-                        {
-                            "title": "Brendan Eich",
-                            "correct": true
-                        },
-                        {
-                            "title": "Mark Zuckerburg"
-                        },
-                        {
-                            "title": "Bill Gates"
-                        },
-                        {
-                            "title": "Steve Jobs"
+                            "title": "থাইল্যান্ড "
                         }
                     ]
                 },
                 {
-                    "title": "What is the latest version of ECMAScript",
+                    "title": "04. ইরানের পার্লামেন্টের নাম কী ? ",
                     "options": [
                         {
-                            "title": "ES2020"
+                            "title": "নেসেট "
                         },
                         {
-                            "title": "ES2021",
+                            "title": "ডায়েট "
+                        },
+                        {
+                            "title": "মজিলিস ",
                             "correct": true
                         },
                         {
-                            "title": "ES6"
-                        },
-                        {
-                            "title": "ES7"
-                        },
-                        {
-                            "title": "ES8"
-                        },
-                        {
-                            "title": "ES2022"
-                        },
-                        {
-                            "title": "ES21"
-                        },
-                        {
-                            "title": "ES3"
-                        },
-                        {
-                            "title": "ES9"
-                        },
-                        {
-                            "title": "ES2020"
+                            "title": "বােরসেট "
                         }
                     ]
                 }
@@ -1226,149 +659,74 @@
         "sub2": {
             "questions": [
                 {
-                    "title": "How to declare JavaScript variables?",
+                    "title": "01. পৃথিবীতে কত লোক বাংলা ভাষায় কথা বলে ?",
                     "options": [
                         {
-                            "title": "with var",
+                            "title": "২৫ কোটি",
                             "correct": true
                         },
                         {
-                            "title": "with let",
-                            "correct": true
+                            "title": "৩০ কোটি"
                         },
                         {
-                            "title": "with const",
-                            "correct": true
+                            "title": "৩৫ কোটি"
                         },
                         {
-                            "title": "with variable"
-                        },
-                        {
-                            "title": "with declare"
-                        },
-                        {
-                            "title": "with new"
-                        },
-                        {
-                            "title": "with number"
-                        },
-                        {
-                            "title": "with string"
-                        },
-                        {
-                            "title": "with boolean"
-                        },
-                        {
-                            "title": "with nothing"
+                            "title": "৪০ কোটি"
                         }
                     ]
                 },
                 {
-                    "title": "When was JavaScript invented?",
+                    "title": "02. নােবল পুরস্কার যার নামে শুরু হয়েছিল সেই আলফ্রেড নােবেল কী আবিষ্কার করেছিলেন ?",
                     "options": [
                         {
-                            "title": "September 1998"
+                            "title": "টেলিফোন"
                         },
                         {
-                            "title": "October 1999"
+                            "title": "নিরাপত্তারােধক বাতি"
                         },
                         {
-                            "title": "September 1995",
+                            "title": "ডিনামাইট",
                             "correct": true
                         },
                         {
-                            "title": "September 1993"
-                        },
-                        {
-                            "title": "August 1990"
-                        },
-                        {
-                            "title": "January 1995"
-                        },
-                        {
-                            "title": "with number"
-                        },
-                        {
-                            "title": "December 1995"
-                        },
-                        {
-                            "title": "March 1996"
-                        },
-                        {
-                            "title": "January 1970"
+                            "title": "উড়ােজাহাজ"
                         }
                     ]
                 },
                 {
-                    "title": "Who or which company created JavaScript?",
+                    "title": "03. ভূমিকম্পের দেশ বলা হয় কোন দেশকে ? ",
                     "options": [
                         {
-                            "title": "Jordan Walke"
+                            "title": "ইন্দোনেশিয়া "
                         },
                         {
-                            "title": "Netscape",
+                            "title": "জাপান ",
                             "correct": true
                         },
                         {
-                            "title": "Jack Ma"
+                            "title": "ভুটান "
                         },
                         {
-                            "title": "Nayok Razzaq"
-                        },
-                        {
-                            "title": "Takla Rubel"
-                        },
-                        {
-                            "title": "Tarzan"
-                        },
-                        {
-                            "title": "Brendan Eich",
-                            "correct": true
-                        },
-                        {
-                            "title": "Mark Zuckerburg"
-                        },
-                        {
-                            "title": "Bill Gates"
-                        },
-                        {
-                            "title": "Steve Jobs"
+                            "title": "থাইল্যান্ড "
                         }
                     ]
                 },
                 {
-                    "title": "What is the latest version of ECMAScript",
+                    "title": "04. ইরানের পার্লামেন্টের নাম কী ? ",
                     "options": [
                         {
-                            "title": "ES2020"
+                            "title": "নেসেট "
                         },
                         {
-                            "title": "ES2021",
+                            "title": "ডায়েট "
+                        },
+                        {
+                            "title": "মজিলিস ",
                             "correct": true
                         },
                         {
-                            "title": "ES6"
-                        },
-                        {
-                            "title": "ES7"
-                        },
-                        {
-                            "title": "ES8"
-                        },
-                        {
-                            "title": "ES2022"
-                        },
-                        {
-                            "title": "ES21"
-                        },
-                        {
-                            "title": "ES3"
-                        },
-                        {
-                            "title": "ES9"
-                        },
-                        {
-                            "title": "ES2020"
+                            "title": "বােরসেট "
                         }
                     ]
                 }
@@ -1377,149 +735,74 @@
         "sub3": {
             "questions": [
                 {
-                    "title": "How to declare JavaScript variables?",
+                    "title": "01. পৃথিবীতে কত লোক বাংলা ভাষায় কথা বলে ?",
                     "options": [
                         {
-                            "title": "with var",
+                            "title": "২৫ কোটি",
                             "correct": true
                         },
                         {
-                            "title": "with let",
-                            "correct": true
+                            "title": "৩০ কোটি"
                         },
                         {
-                            "title": "with const",
-                            "correct": true
+                            "title": "৩৫ কোটি"
                         },
                         {
-                            "title": "with variable"
-                        },
-                        {
-                            "title": "with declare"
-                        },
-                        {
-                            "title": "with new"
-                        },
-                        {
-                            "title": "with number"
-                        },
-                        {
-                            "title": "with string"
-                        },
-                        {
-                            "title": "with boolean"
-                        },
-                        {
-                            "title": "with nothing"
+                            "title": "৪০ কোটি"
                         }
                     ]
                 },
                 {
-                    "title": "When was JavaScript invented?",
+                    "title": "02. নােবল পুরস্কার যার নামে শুরু হয়েছিল সেই আলফ্রেড নােবেল কী আবিষ্কার করেছিলেন ?",
                     "options": [
                         {
-                            "title": "September 1998"
+                            "title": "টেলিফোন"
                         },
                         {
-                            "title": "October 1999"
+                            "title": "নিরাপত্তারােধক বাতি"
                         },
                         {
-                            "title": "September 1995",
+                            "title": "ডিনামাইট",
                             "correct": true
                         },
                         {
-                            "title": "September 1993"
-                        },
-                        {
-                            "title": "August 1990"
-                        },
-                        {
-                            "title": "January 1995"
-                        },
-                        {
-                            "title": "with number"
-                        },
-                        {
-                            "title": "December 1995"
-                        },
-                        {
-                            "title": "March 1996"
-                        },
-                        {
-                            "title": "January 1970"
+                            "title": "উড়ােজাহাজ"
                         }
                     ]
                 },
                 {
-                    "title": "Who or which company created JavaScript?",
+                    "title": "03. ভূমিকম্পের দেশ বলা হয় কোন দেশকে ? ",
                     "options": [
                         {
-                            "title": "Jordan Walke"
+                            "title": "ইন্দোনেশিয়া "
                         },
                         {
-                            "title": "Netscape",
+                            "title": "জাপান ",
                             "correct": true
                         },
                         {
-                            "title": "Jack Ma"
+                            "title": "ভুটান "
                         },
                         {
-                            "title": "Nayok Razzaq"
-                        },
-                        {
-                            "title": "Takla Rubel"
-                        },
-                        {
-                            "title": "Tarzan"
-                        },
-                        {
-                            "title": "Brendan Eich",
-                            "correct": true
-                        },
-                        {
-                            "title": "Mark Zuckerburg"
-                        },
-                        {
-                            "title": "Bill Gates"
-                        },
-                        {
-                            "title": "Steve Jobs"
+                            "title": "থাইল্যান্ড "
                         }
                     ]
                 },
                 {
-                    "title": "What is the latest version of ECMAScript",
+                    "title": "04. ইরানের পার্লামেন্টের নাম কী ? ",
                     "options": [
                         {
-                            "title": "ES2020"
+                            "title": "নেসেট "
                         },
                         {
-                            "title": "ES2021",
+                            "title": "ডায়েট "
+                        },
+                        {
+                            "title": "মজিলিস ",
                             "correct": true
                         },
                         {
-                            "title": "ES6"
-                        },
-                        {
-                            "title": "ES7"
-                        },
-                        {
-                            "title": "ES8"
-                        },
-                        {
-                            "title": "ES2022"
-                        },
-                        {
-                            "title": "ES21"
-                        },
-                        {
-                            "title": "ES3"
-                        },
-                        {
-                            "title": "ES9"
-                        },
-                        {
-                            "title": "ES2020"
+                            "title": "বােরসেট "
                         }
                     ]
                 }
@@ -1528,149 +811,74 @@
         "sub4": {
             "questions": [
                 {
-                    "title": "How to declare JavaScript variables?",
+                    "title": "01. পৃথিবীতে কত লোক বাংলা ভাষায় কথা বলে ?",
                     "options": [
                         {
-                            "title": "with var",
+                            "title": "২৫ কোটি",
                             "correct": true
                         },
                         {
-                            "title": "with let",
-                            "correct": true
+                            "title": "৩০ কোটি"
                         },
                         {
-                            "title": "with const",
-                            "correct": true
+                            "title": "৩৫ কোটি"
                         },
                         {
-                            "title": "with variable"
-                        },
-                        {
-                            "title": "with declare"
-                        },
-                        {
-                            "title": "with new"
-                        },
-                        {
-                            "title": "with number"
-                        },
-                        {
-                            "title": "with string"
-                        },
-                        {
-                            "title": "with boolean"
-                        },
-                        {
-                            "title": "with nothing"
+                            "title": "৪০ কোটি"
                         }
                     ]
                 },
                 {
-                    "title": "When was JavaScript invented?",
+                    "title": "02. নােবল পুরস্কার যার নামে শুরু হয়েছিল সেই আলফ্রেড নােবেল কী আবিষ্কার করেছিলেন ?",
                     "options": [
                         {
-                            "title": "September 1998"
+                            "title": "টেলিফোন"
                         },
                         {
-                            "title": "October 1999"
+                            "title": "নিরাপত্তারােধক বাতি"
                         },
                         {
-                            "title": "September 1995",
+                            "title": "ডিনামাইট",
                             "correct": true
                         },
                         {
-                            "title": "September 1993"
-                        },
-                        {
-                            "title": "August 1990"
-                        },
-                        {
-                            "title": "January 1995"
-                        },
-                        {
-                            "title": "with number"
-                        },
-                        {
-                            "title": "December 1995"
-                        },
-                        {
-                            "title": "March 1996"
-                        },
-                        {
-                            "title": "January 1970"
+                            "title": "উড়ােজাহাজ"
                         }
                     ]
                 },
                 {
-                    "title": "Who or which company created JavaScript?",
+                    "title": "03. ভূমিকম্পের দেশ বলা হয় কোন দেশকে ? ",
                     "options": [
                         {
-                            "title": "Jordan Walke"
+                            "title": "ইন্দোনেশিয়া "
                         },
                         {
-                            "title": "Netscape",
+                            "title": "জাপান ",
                             "correct": true
                         },
                         {
-                            "title": "Jack Ma"
+                            "title": "ভুটান "
                         },
                         {
-                            "title": "Nayok Razzaq"
-                        },
-                        {
-                            "title": "Takla Rubel"
-                        },
-                        {
-                            "title": "Tarzan"
-                        },
-                        {
-                            "title": "Brendan Eich",
-                            "correct": true
-                        },
-                        {
-                            "title": "Mark Zuckerburg"
-                        },
-                        {
-                            "title": "Bill Gates"
-                        },
-                        {
-                            "title": "Steve Jobs"
+                            "title": "থাইল্যান্ড "
                         }
                     ]
                 },
                 {
-                    "title": "What is the latest version of ECMAScript",
+                    "title": "04. ইরানের পার্লামেন্টের নাম কী ? ",
                     "options": [
                         {
-                            "title": "ES2020"
+                            "title": "নেসেট "
                         },
                         {
-                            "title": "ES2021",
+                            "title": "ডায়েট "
+                        },
+                        {
+                            "title": "মজিলিস ",
                             "correct": true
                         },
                         {
-                            "title": "ES6"
-                        },
-                        {
-                            "title": "ES7"
-                        },
-                        {
-                            "title": "ES8"
-                        },
-                        {
-                            "title": "ES2022"
-                        },
-                        {
-                            "title": "ES21"
-                        },
-                        {
-                            "title": "ES3"
-                        },
-                        {
-                            "title": "ES9"
-                        },
-                        {
-                            "title": "ES2020"
+                            "title": "বােরসেট "
                         }
                     ]
                 }
@@ -1679,149 +887,74 @@
         "sub5": {
             "questions": [
                 {
-                    "title": "How to declare JavaScript variables?",
+                    "title": "01. পৃথিবীতে কত লোক বাংলা ভাষায় কথা বলে ?",
                     "options": [
                         {
-                            "title": "with var",
+                            "title": "২৫ কোটি",
                             "correct": true
                         },
                         {
-                            "title": "with let",
-                            "correct": true
+                            "title": "৩০ কোটি"
                         },
                         {
-                            "title": "with const",
-                            "correct": true
+                            "title": "৩৫ কোটি"
                         },
                         {
-                            "title": "with variable"
-                        },
-                        {
-                            "title": "with declare"
-                        },
-                        {
-                            "title": "with new"
-                        },
-                        {
-                            "title": "with number"
-                        },
-                        {
-                            "title": "with string"
-                        },
-                        {
-                            "title": "with boolean"
-                        },
-                        {
-                            "title": "with nothing"
+                            "title": "৪০ কোটি"
                         }
                     ]
                 },
                 {
-                    "title": "When was JavaScript invented?",
+                    "title": "02. নােবল পুরস্কার যার নামে শুরু হয়েছিল সেই আলফ্রেড নােবেল কী আবিষ্কার করেছিলেন ?",
                     "options": [
                         {
-                            "title": "September 1998"
+                            "title": "টেলিফোন"
                         },
                         {
-                            "title": "October 1999"
+                            "title": "নিরাপত্তারােধক বাতি"
                         },
                         {
-                            "title": "September 1995",
+                            "title": "ডিনামাইট",
                             "correct": true
                         },
                         {
-                            "title": "September 1993"
-                        },
-                        {
-                            "title": "August 1990"
-                        },
-                        {
-                            "title": "January 1995"
-                        },
-                        {
-                            "title": "with number"
-                        },
-                        {
-                            "title": "December 1995"
-                        },
-                        {
-                            "title": "March 1996"
-                        },
-                        {
-                            "title": "January 1970"
+                            "title": "উড়ােজাহাজ"
                         }
                     ]
                 },
                 {
-                    "title": "Who or which company created JavaScript?",
+                    "title": "03. ভূমিকম্পের দেশ বলা হয় কোন দেশকে ? ",
                     "options": [
                         {
-                            "title": "Jordan Walke"
+                            "title": "ইন্দোনেশিয়া "
                         },
                         {
-                            "title": "Netscape",
+                            "title": "জাপান ",
                             "correct": true
                         },
                         {
-                            "title": "Jack Ma"
+                            "title": "ভুটান "
                         },
                         {
-                            "title": "Nayok Razzaq"
-                        },
-                        {
-                            "title": "Takla Rubel"
-                        },
-                        {
-                            "title": "Tarzan"
-                        },
-                        {
-                            "title": "Brendan Eich",
-                            "correct": true
-                        },
-                        {
-                            "title": "Mark Zuckerburg"
-                        },
-                        {
-                            "title": "Bill Gates"
-                        },
-                        {
-                            "title": "Steve Jobs"
+                            "title": "থাইল্যান্ড "
                         }
                     ]
                 },
                 {
-                    "title": "What is the latest version of ECMAScript",
+                    "title": "04. ইরানের পার্লামেন্টের নাম কী ? ",
                     "options": [
                         {
-                            "title": "ES2020"
+                            "title": "নেসেট "
                         },
                         {
-                            "title": "ES2021",
+                            "title": "ডায়েট "
+                        },
+                        {
+                            "title": "মজিলিস ",
                             "correct": true
                         },
                         {
-                            "title": "ES6"
-                        },
-                        {
-                            "title": "ES7"
-                        },
-                        {
-                            "title": "ES8"
-                        },
-                        {
-                            "title": "ES2022"
-                        },
-                        {
-                            "title": "ES21"
-                        },
-                        {
-                            "title": "ES3"
-                        },
-                        {
-                            "title": "ES9"
-                        },
-                        {
-                            "title": "ES2020"
+                            "title": "বােরসেট "
                         }
                     ]
                 }
@@ -1830,149 +963,74 @@
         "sub6": {
             "questions": [
                 {
-                    "title": "How to declare JavaScript variables?",
+                    "title": "01. পৃথিবীতে কত লোক বাংলা ভাষায় কথা বলে ?",
                     "options": [
                         {
-                            "title": "with var",
+                            "title": "২৫ কোটি",
                             "correct": true
                         },
                         {
-                            "title": "with let",
-                            "correct": true
+                            "title": "৩০ কোটি"
                         },
                         {
-                            "title": "with const",
-                            "correct": true
+                            "title": "৩৫ কোটি"
                         },
                         {
-                            "title": "with variable"
-                        },
-                        {
-                            "title": "with declare"
-                        },
-                        {
-                            "title": "with new"
-                        },
-                        {
-                            "title": "with number"
-                        },
-                        {
-                            "title": "with string"
-                        },
-                        {
-                            "title": "with boolean"
-                        },
-                        {
-                            "title": "with nothing"
+                            "title": "৪০ কোটি"
                         }
                     ]
                 },
                 {
-                    "title": "When was JavaScript invented?",
+                    "title": "02. নােবল পুরস্কার যার নামে শুরু হয়েছিল সেই আলফ্রেড নােবেল কী আবিষ্কার করেছিলেন ?",
                     "options": [
                         {
-                            "title": "September 1998"
+                            "title": "টেলিফোন"
                         },
                         {
-                            "title": "October 1999"
+                            "title": "নিরাপত্তারােধক বাতি"
                         },
                         {
-                            "title": "September 1995",
+                            "title": "ডিনামাইট",
                             "correct": true
                         },
                         {
-                            "title": "September 1993"
-                        },
-                        {
-                            "title": "August 1990"
-                        },
-                        {
-                            "title": "January 1995"
-                        },
-                        {
-                            "title": "with number"
-                        },
-                        {
-                            "title": "December 1995"
-                        },
-                        {
-                            "title": "March 1996"
-                        },
-                        {
-                            "title": "January 1970"
+                            "title": "উড়ােজাহাজ"
                         }
                     ]
                 },
                 {
-                    "title": "Who or which company created JavaScript?",
+                    "title": "03. ভূমিকম্পের দেশ বলা হয় কোন দেশকে ? ",
                     "options": [
                         {
-                            "title": "Jordan Walke"
+                            "title": "ইন্দোনেশিয়া "
                         },
                         {
-                            "title": "Netscape",
+                            "title": "জাপান ",
                             "correct": true
                         },
                         {
-                            "title": "Jack Ma"
+                            "title": "ভুটান "
                         },
                         {
-                            "title": "Nayok Razzaq"
-                        },
-                        {
-                            "title": "Takla Rubel"
-                        },
-                        {
-                            "title": "Tarzan"
-                        },
-                        {
-                            "title": "Brendan Eich",
-                            "correct": true
-                        },
-                        {
-                            "title": "Mark Zuckerburg"
-                        },
-                        {
-                            "title": "Bill Gates"
-                        },
-                        {
-                            "title": "Steve Jobs"
+                            "title": "থাইল্যান্ড "
                         }
                     ]
                 },
                 {
-                    "title": "What is the latest version of ECMAScript",
+                    "title": "04. ইরানের পার্লামেন্টের নাম কী ? ",
                     "options": [
                         {
-                            "title": "ES2020"
+                            "title": "নেসেট "
                         },
                         {
-                            "title": "ES2021",
+                            "title": "ডায়েট "
+                        },
+                        {
+                            "title": "মজিলিস ",
                             "correct": true
                         },
                         {
-                            "title": "ES6"
-                        },
-                        {
-                            "title": "ES7"
-                        },
-                        {
-                            "title": "ES8"
-                        },
-                        {
-                            "title": "ES2022"
-                        },
-                        {
-                            "title": "ES21"
-                        },
-                        {
-                            "title": "ES3"
-                        },
-                        {
-                            "title": "ES9"
-                        },
-                        {
-                            "title": "ES2020"
+                            "title": "বােরসেট "
                         }
                     ]
                 }
@@ -1981,149 +1039,74 @@
         "sub7": {
             "questions": [
                 {
-                    "title": "How to declare JavaScript variables?",
+                    "title": "01. পৃথিবীতে কত লোক বাংলা ভাষায় কথা বলে ?",
                     "options": [
                         {
-                            "title": "with var",
+                            "title": "২৫ কোটি",
                             "correct": true
                         },
                         {
-                            "title": "with let",
-                            "correct": true
+                            "title": "৩০ কোটি"
                         },
                         {
-                            "title": "with const",
-                            "correct": true
+                            "title": "৩৫ কোটি"
                         },
                         {
-                            "title": "with variable"
-                        },
-                        {
-                            "title": "with declare"
-                        },
-                        {
-                            "title": "with new"
-                        },
-                        {
-                            "title": "with number"
-                        },
-                        {
-                            "title": "with string"
-                        },
-                        {
-                            "title": "with boolean"
-                        },
-                        {
-                            "title": "with nothing"
+                            "title": "৪০ কোটি"
                         }
                     ]
                 },
                 {
-                    "title": "When was JavaScript invented?",
+                    "title": "02. নােবল পুরস্কার যার নামে শুরু হয়েছিল সেই আলফ্রেড নােবেল কী আবিষ্কার করেছিলেন ?",
                     "options": [
                         {
-                            "title": "September 1998"
+                            "title": "টেলিফোন"
                         },
                         {
-                            "title": "October 1999"
+                            "title": "নিরাপত্তারােধক বাতি"
                         },
                         {
-                            "title": "September 1995",
+                            "title": "ডিনামাইট",
                             "correct": true
                         },
                         {
-                            "title": "September 1993"
-                        },
-                        {
-                            "title": "August 1990"
-                        },
-                        {
-                            "title": "January 1995"
-                        },
-                        {
-                            "title": "with number"
-                        },
-                        {
-                            "title": "December 1995"
-                        },
-                        {
-                            "title": "March 1996"
-                        },
-                        {
-                            "title": "January 1970"
+                            "title": "উড়ােজাহাজ"
                         }
                     ]
                 },
                 {
-                    "title": "Who or which company created JavaScript?",
+                    "title": "03. ভূমিকম্পের দেশ বলা হয় কোন দেশকে ? ",
                     "options": [
                         {
-                            "title": "Jordan Walke"
+                            "title": "ইন্দোনেশিয়া "
                         },
                         {
-                            "title": "Netscape",
+                            "title": "জাপান ",
                             "correct": true
                         },
                         {
-                            "title": "Jack Ma"
+                            "title": "ভুটান "
                         },
                         {
-                            "title": "Nayok Razzaq"
-                        },
-                        {
-                            "title": "Takla Rubel"
-                        },
-                        {
-                            "title": "Tarzan"
-                        },
-                        {
-                            "title": "Brendan Eich",
-                            "correct": true
-                        },
-                        {
-                            "title": "Mark Zuckerburg"
-                        },
-                        {
-                            "title": "Bill Gates"
-                        },
-                        {
-                            "title": "Steve Jobs"
+                            "title": "থাইল্যান্ড "
                         }
                     ]
                 },
                 {
-                    "title": "What is the latest version of ECMAScript",
+                    "title": "04. ইরানের পার্লামেন্টের নাম কী ? ",
                     "options": [
                         {
-                            "title": "ES2020"
+                            "title": "নেসেট "
                         },
                         {
-                            "title": "ES2021",
+                            "title": "ডায়েট "
+                        },
+                        {
+                            "title": "মজিলিস ",
                             "correct": true
                         },
                         {
-                            "title": "ES6"
-                        },
-                        {
-                            "title": "ES7"
-                        },
-                        {
-                            "title": "ES8"
-                        },
-                        {
-                            "title": "ES2022"
-                        },
-                        {
-                            "title": "ES21"
-                        },
-                        {
-                            "title": "ES3"
-                        },
-                        {
-                            "title": "ES9"
-                        },
-                        {
-                            "title": "ES2020"
+                            "title": "বােরসেট "
                         }
                     ]
                 }

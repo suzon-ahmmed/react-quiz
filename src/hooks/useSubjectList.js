@@ -22,7 +22,7 @@ export default function useVideoList(page) {
       async function fetchVideos() {
         // database related works
         const db = getDatabase();
-        const subjectsRef = ref(db, "videos");
+        const subjectsRef = ref(db, "subjects");
         const subjectQuery = query(
           subjectsRef,
           orderByKey(),
@@ -48,7 +48,7 @@ export default function useVideoList(page) {
           setError(true);
         }
       }
-      setTimeout(() => fetchVideos(), 5000);
+      setTimeout(() => fetchVideos(), 3000);
       // fetchVideos();
     }
     return () => {

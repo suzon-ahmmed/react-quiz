@@ -1,7 +1,7 @@
 import { getDatabase, ref, set } from "firebase/database";
 import _ from "lodash";
 import React, { useEffect, useReducer, useState } from "react";
-import { useLocation, useNavigate, useParams } from "react-router-dom";
+import {  useNavigate, useParams } from "react-router-dom";
 import { useAuth } from "../../contexts/AuthContext";
 import useQuestions from "../../hooks/useQuestions";
 import Answers from "../Answers";
@@ -11,7 +11,7 @@ export default function Quiz() {
   const { id } = useParams();
   const navigate = useNavigate();
 
-  const location =  useLocation();
+  // const location =  useLocation();
 
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const { loading, error, questions } = useQuestions(id);
